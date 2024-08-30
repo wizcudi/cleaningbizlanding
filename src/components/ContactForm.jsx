@@ -98,7 +98,7 @@ export default function ContactForm() {
                     onChange={handleChange}
                     value={formData.service}
                 >
-                    <option value=''>Select a service</option>
+                    <option value='' disabled>Select a Service</option>
                     <option value="full-cleaning">Full Cleaning</option>
                     <option value="window-cleaning">Window Cleaning</option>
                     <option value="furniture-cleaning">Furniture Cleaning</option>
