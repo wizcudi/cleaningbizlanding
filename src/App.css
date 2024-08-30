@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --lightblue: #3f88c5;
+    --darkblue: #003049;
+    --beige: #f5ebe0;
+    --silver: #f8f9fa;
+    --white: #ffffff;
+
+    font-family: "Rubik", sans-serif;
+}

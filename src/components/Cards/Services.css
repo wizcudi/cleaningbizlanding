@@ -1,0 +1,30 @@
+
+
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 25px;
+    cursor: pointer;
+    background-color: var(--white);
+}
+.services-card h2 {
+    font-size: 30px;
+}
+.services-card p {
+    font-size: 18px;
+}
+.services-card-a {
+    color: var(--lightblue);
+    font-size: 18px;
+}
+
+.services-card:hover {
+    color: var(--white);
+    background-color: var(--lightblue);
+}
+.services-card:hover a {
+    color: var(--white); 
+}
+
